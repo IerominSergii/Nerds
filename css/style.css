@@ -509,31 +509,37 @@ h2 {
   background-color: #ffffff;
 }
 
-.map-adress span {
+.container-overflow {
+  overflow: auto;
+  height: 100px;
+}
+
+.map-adress p {
   display: block;
   color: #666666;
   font-size: 16px;
   line-height: 20px;
 }
 
-.map-adress span.map-adress-title {
-  margin-bottom: 20px;
+.map-adress p.map-adress-title {
+  margin: 0;
   font-size: 16px;
   line-height: 30px;
   font-weight: medium;
   color: #000000;
 }
 
-.map-adress span.map-adress-post {
+.map-adress p.map-adress-post {
   margin-bottom: 24px;
 }
 
-.map-adress span.map-adress-tel {
+.map-adress p.map-adress-tel {
   margin-bottom: 32px;
 }
 
 .map-btn {
   width: 204px;
+  margin-top: 30px;
 }
 
 .map-img {
